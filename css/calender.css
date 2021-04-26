@@ -1,0 +1,31 @@
+td {
+    position: relative;
+    text-align: center;
+}
+p {
+    margin: 0;
+    font-size: 12px;
+    display: inline;
+    width: auto;
+    position: absolute;
+    bottom: -2px;
+    left: 1px;
+    cursor: pointer;
+}
+p:nth-child(2) {
+    display: inline-block;
+    left: 13.5px;
+}
+p:nth-child(3) {
+    left: 26px;
+}
+
+body {
+  margin: 0;
+}
+table#calendar {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 320px;
+}

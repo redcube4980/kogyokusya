@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+    font-size: 12px;
+    line-height:1.75;
+}
+a{
+    text-decoration:underline;
+    color:#004080;
+    cursor: pointer;
+    text-decoration: none;
+}
+.parents-p {
+    font-size: 16px !important;
+    color: #004080;
+    text-align: left;
+}
+a:hover{
+
+}
+.detail-catch-box .black{
+	color: black;
+}
+.detail-catch-box .shadow{
+	text-shadow:2px 2px 3px #000000;
+}
+.wf-sawarabimincho { font-family: "Sawarabi Mincho"; }
+.top-page body,.top-page input,.top-page textarea,.top-page select,.top-page div,.top-page p,.top-page li {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+}
+
+footer span{
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+}
+button {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+}
+
+input[type="search"] {
+    background: #fff !important;
+    border: 1px solid #666666;
+    height: 30px;
+    width: 204px;
+    font-size: 14px;
+    padding-left: 8px;
+    background-color:#fff;
+    width: 100% !important;
+}
+#searchform {
+    width: 48%;
+    margin: 0 auto;
+    position: relative;
+    max-width: 204px;
+}
+#searchform input[type="submit"] {
+    background: url(../../img/icon-search.png) no-repeat;
+    position: absolute;
+    top: 0;
+    width: 22px;
+    border: none;
+    height: 18px;
+    bottom: 0;
+    margin: auto 0;
+    right: 5px;
+}
+::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+.cf:after{
+	display:block;
+	clear:both;
+	content:'';
+}
+
+th {
+    background: #DFE8FA;
+}
+
+.contact-list ul li a{
+	color: #fff;
+}
+.contact-list ul li p{
+	color: #fff;
+	font-size: 15px;
+}
+#main_index{
+	width: 100%;
+	margin: 40px 0;
+}
+#main_index .h1_index{
+	text-align: center;
+}
+#main_index .h2_index{
+	text-align: center;
+}
+.txt-area-top-news img{
+	height: auto;
+}
+@media (max-width: 568px) {
+	.sp-only{
+		display:block;
+	}
+    .pc-only{
+        display:none;
+    }
+	.txt-area-top-news p{
+	font-size: 16px !important;
+}
+}
+
+@media (min-width: 569px) {
+	.sp-only{
+		display:none;
+	}
+    .pc-only{
+        display:block;
+    }
+	.txt-area-top-news p{
+	font-size: 18px !important;
+}
+}
+
+.fr-window canvas {
+    display: none !important;
+}
+.fresco.disp_none {
+    display: none;
+}

@@ -1,0 +1,351 @@
+@media (min-width: 769px) {
+  .contents{
+    font-size: 16px;
+  }
+  .contents h1{
+    font-size: 30px;
+    color: #4D4D4D;
+  }
+  .description p{
+    margin: 3px 0;
+  }
+  .description p:last-child{
+    margin: 3px 0 10px 0;
+  }
+  .line{
+    margin: 25px 0;
+  }
+  p.heading{
+    font-size: 20px;
+    font-weight: bold;
+    color: #004081;
+    margin: 30px 0 10px 0;
+  }
+  .heading span{
+    vertical-align: 5px;
+    display: inline-block;
+    width:30px;
+  	height:4px;
+  	background:#004081;
+    margin-right: 8px;
+  }
+  table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  }
+  /*main*/
+  #main table tr{
+    display: block;
+    border-top: solid 1px #004080;
+  }
+  #main table tr:last-child{
+    display: block;
+    border-bottom: solid 1px #004080;
+  }
+  #main table th{
+    width: 28%;
+    height: 100%;
+    text-align: left;
+    background-color: #C6D3E2;
+    font-weight: normal;
+    display: inline-block;
+  }
+  #main table td{
+    display: inline-block;
+  }
+  #main table .one input[type="text"]{
+    width: 520px;
+    height: 40px;
+    border-radius: 8px;
+    border: solid 1px #808080;
+    margin-left: 10px;
+  }
+  #main table .two input[type="text"]{
+    width: 218px;
+    height: 40px;
+    border-radius: 8px;
+    border: solid 1px #808080;
+    margin-left: 10px;
+  }
+  #main table .three input[type="text"]{
+    width: 50px;
+    height: 40px;
+    border-radius: 8px;
+    border: solid 1px #808080;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  #main table td span{
+  }
+  .table-name{
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .table-name .text-box{
+    max-width: 70%;
+    display: inline-block;
+  }
+  .require{
+    line-height: 20px;
+    display: inline-block;
+    text-align: center;
+    background: #D31C24;
+    color: #FFF;
+    width: 40px;
+    height: 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 3px;
+    font-size: 12px;
+    vertical-align: top;
+  }
+  .info{
+    background-color: #E8EDF2;
+  }
+
+
+/*************************************NEW********************************************/
+
+
+  .dfloat{
+    display: inline-block;
+    float: left;
+  }
+
+  .dinline{
+    display: inline-block;
+  }
+
+  #main table td{
+    width: 71%;
+  }
+
+  #main table .one input[type="email"]{
+    width: 520px;
+    height: 40px;
+    border-radius: 8px;
+    border: solid 1px #808080;
+    margin-left: 10px;
+  }
+
+.custom{
+    margin-top: 16px;
+}
+
+.addition{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.btnadd{
+    margin-right: 20px;
+}
+
+
+#main table .three input[type="text"] {
+    width: 70px;
+}
+
+#main table td span {
+    display: inline-block;
+    margin-right: 6px;
+}
+
+input[type="radio"] {
+    display: inline;
+    -webkit-appearance: radio;
+}
+
+/*************************************NEW/********************************************/
+
+
+
+
+
+
+
+
+  /*
+  =================================
+  ============サイドバー============
+  =================================
+  */
+  #side-bar p{
+    font-size: 1.3em;
+    text-align: center;
+    color: #004080;
+    padding: 30px 0;
+    border-top: solid 2px #004080;
+    border-bottom: solid 2px #004080;
+  }
+  #side-bar li{
+    padding: 15px 0;
+    border-bottom: dotted 1px #4D4D4D;
+    font-size: 14px;
+    position: relative;
+    color: #4D4D4D
+  }
+  #side-bar li:first-child{
+    color: #004080;
+    font-weight: bold;
+  }
+  #side-bar li:last-child{
+    border-bottom: solid 1px #004080;
+  }
+  #side-bar .text-box{
+    display: inline-block;
+    width: 75%;
+  }
+  #side-bar .head-line{
+    display: inline-block;
+    width:21px;
+    height:2px;
+    background:#4D4D4D;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  #side-bar a{
+    color: #4D4D4D;
+    text-decoration: none;
+  }
+  #side-bar a:after{
+    content: "＞";
+    display: inline-block;
+    border-radius: 50%;
+    color: #004080;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 21px;
+    position: absolute;
+    top:20px;
+    right: 0px;
+  }
+  #side-bar li:nth-child(2){
+    display: none;
+  }
+  /*
+  =================================
+  ============parts============
+  =================================
+  */
+  input#submit_button{
+  margin: 25px auto;
+  display: block;
+  width: 168px;
+  height: 42px;
+  border-radius: 20px;
+  font-size: 18px;
+  border: none;
+  color:#FFF;
+  background-color: #DD801E;
+  }
+
+  .button-center{
+    margin: 50px 0 200px 0;
+  }
+  .contents .btn-wrap button {
+        width: 350px;
+        height: 65px;
+        display: block;
+        background: #004080;
+        color: #fff;
+        font-size: 16px;
+        margin: 0 auto;
+        position: relative;
+  }
+
+  .contents .btn-wrap button:after {
+        content: "＞";
+        display: inline-block;
+        background: #fff;
+        border-radius: 50%;
+        color: #004080;
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+        line-height: 21px;
+        position: absolute;
+        top:20px;
+        right: 20px;
+  }
+
+
+  ::-webkit-input-placeholder {
+    font-size: 16px;
+  }
+
+
+.custom {
+  display: inline-block;
+  position: relative;
+  border-radius: 0.2em;
+  font-size: 18px;
+}
+.custom > select {
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  background: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.custom:after {
+  width: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: block;
+  content: "▼";
+  text-align: center;
+  line-height: 40px;
+  font-size: 4px;
+  background: #ccc;
+  pointer-events: none;
+  margin-right: 10px;
+}
+
+/*radio02*/
+.radio02{
+  margin-left: 10px;
+}
+.radio02-input{
+  display: none;
+}
+.radio02-input + label{
+  padding-left: 20px;
+  position:relative;
+  margin-right: 20px;
+}
+.radio02-input + label::before{
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #999;
+  border-radius: 50%;
+}
+.radio02-input:checked + label{
+  color: #000;
+}
+.radio02-input:checked + label::after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 11px;
+  height: 11px;
+  background: #000;
+  border-radius: 50%;
+}
+
+
+
+}

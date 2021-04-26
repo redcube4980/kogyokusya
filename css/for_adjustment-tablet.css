@@ -1,0 +1,74 @@
+@media (min-width: 568px) and (max-width: 768px) {
+/*
+body {
+	font-feature-settings : "palt";
+	letter-spacing: 0.5px;
+}*/
+header#education-hd.educatiion {
+    background-position: 50%;
+	height: 290px;
+}
+header#education-hd.introduction {
+    background-position: 50%;
+	height: 290px;
+}
+/*
+#main p{
+	text-align: justify;
+	text-align-last: left;
+	letter-spacing: 2px;
+}*/
+/**　校章・校旗・校歌・制服 uniform用　**/
+.uniform-wrap {
+    margin-bottom: 40px;
+    float: left;
+    width: 100%;
+}
+.uniform-box .right {
+    width: 100%;
+    padding-left: 0;
+}
+.uniform-box .left {
+    width: 100%;
+    float: left;
+}
+.uniform-wrap {
+    margin-bottom: 40px;
+    float: left;
+    width: 100%;
+}
+.uniform-box .left img {
+width: 190px;
+float: left;
+margin-right: 20px;
+margin-top: 10px;
+}
+.uniform-box {
+    display: block;
+}
+.intro-map-box {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+.intro-map-box iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+	.video {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+}
+.video iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+}

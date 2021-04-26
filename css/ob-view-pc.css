@@ -1,0 +1,184 @@
+@media (min-width: 769px) {
+    #main.education-main {
+        width: 100%;
+        display: block;
+        float: none;
+        margin: 42px auto 0;
+    }
+
+    #main h3 {
+        font-size: 30px;
+        color: #4d4d4d;
+        display: block;
+        text-align: center;
+        line-height: 52px;
+        margin-bottom: 4px;
+    }
+	h2{
+		font-size: 42px;
+	}
+    #main .catch p {
+        color: #004080;
+        line-height: 2;
+        display: block;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #main .catch {
+        margin-bottom: 112px;
+    }
+
+    /*追加css*/
+
+    /*ヘッダー*/
+    section#school-life-ttl {
+        width: 50%;
+        margin: 0 auto;
+        padding-bottom: 120px;
+    }
+    section#school-life-ttl img {
+        width: 100%;
+    }
+
+    /*共通パーツの変動*/
+    header#education-hd {
+        background: url(../img/ob-mv.png) 50% 50%/cover;
+    }
+    a {
+        text-decoration: none;
+        color: #000;
+        cursor: pointer;
+    }
+    /*卒業生通用css*/
+    .pc {
+        display: block;
+    }
+    .sp {
+        display: none;
+    }
+    /*トップページ*/
+    div#container.top-page {
+        max-width: 100%;
+    }
+    .interview-area {
+        max-width: 960px;
+        width: 100%;
+        margin: 60px auto 114px;
+        display: flex;
+    }
+    p.interview-ttl {
+        font-size: 30px;
+        text-align: center;
+        margin: 0 0 30px;
+    }
+    .interview{
+        width: 100%
+    }
+    .interview img {
+        width: 100%;
+    }
+    p.interview-txt {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    p.interview-txt span {
+        font-size: 20px;
+        display: block;
+    }
+/******* ob-title ******/
+    .ob-title{
+        text-align: center;
+        letter-spacing: 8px;
+    }
+    .ob-title h4{
+        font-size: 30px;
+        color: #4d4d4d;
+        font-weight: normal;
+    }
+    .ob-title p{
+        font-size: 45px;
+        color: #4d4d4d;
+        font-weight: bold;
+    }
+/******* ob-title ******/
+/******* ob-detail ******/
+    .ob-detail-contain{
+        max-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 40px;
+    }
+    .detail-box-b{
+        width: 800px;
+        margin: 0 auto;
+        margin-top: 120px;
+    }
+    .f16B-detail{
+        font-size: 16px;
+        color: #004080;
+    }
+    .f16-detail{
+        font-size: 16px;
+    }
+    .f36B-detail{
+        font-size: 36px;
+        font-weight: bold;
+        color: #004080;
+        line-height: 1.5;
+        margin-bottom: 40px;
+    }
+    .detail-inner{
+        margin: 30px 0 100px;
+    }
+    .detail-inner div{
+        margin-top: 50px;
+    }
+    .mg-t20-detail{
+        margin-top: 20px;
+    }
+    .detail-s-box img{
+        width: 300px;
+        margin:0 auto;
+    }
+    .mg-tb50100-detail{
+        margin: 50px 0 100px;
+    }
+    .detail-catch .f1{
+        font-size: 20px;
+    }
+    .detail-catch .f2{
+        font-size: 26px;
+    }
+    .detail-catch .f3{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .detail-catch{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #fff;
+    }
+    .detail-catch-box{
+        position: relative;
+    }
+    .detail-box-b{
+        width: 100%;
+    }
+    #container.ob-page p{
+        font-family: "ヒラギノ角ゴ Pro",sans-serif;
+    }
+
+/******* ob-detail ******/
+
+}
+
+@media (max-width: 1000px){
+
+    .ob-detail-contain{
+        padding:0 50px;
+    }
+
+}

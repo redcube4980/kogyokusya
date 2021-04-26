@@ -1,0 +1,367 @@
+@media (max-width: 568px) {
+    #main.education-main {
+        width: 100%;
+        display: block;
+        float: none;
+        margin: 0px auto 0;
+    }
+
+    #main h3 {
+        font-size: 15px;
+        color: #4d4d4d;
+        display: block;
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 4px;
+    }
+
+    #main .catch p {
+        color: #004080;
+        line-height: 2;
+        display: block;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    #main .catch {
+        margin-bottom: 60px;
+    }
+.contents-wrap{
+    display:block;
+    margin:0 auto;
+    width:100%;
+}
+    .contents-wrap:last-child {
+        margin-bottom: 100px;
+        display: inline-block;
+    }
+
+    .contents {
+        margin: 0 auto 60px;
+        width: 100%;
+        display: block;
+        float: none;
+    }
+
+    .contents .ttl .jp {
+        font-size: 18px;
+        font-weight: bold;
+        color: #4d4d4d;
+    }
+
+    .contents .ttl .en {
+        color: #4d4d4d;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: italic;
+    }
+
+    .pic-wrap {
+        border-bottom: 1px dotted #004080;
+    }
+
+    .contents .bar {
+        width: 120px;
+        display: block;
+        margin: 0 auto;
+        height: 4px;
+        background: #004080;
+    }
+
+    .contents .ttl {
+        text-align: center;
+        margin: 16px 0;
+    }
+
+    .contents aside {
+        font-size: 16px;
+        display: block;
+        text-align: center;
+        color: #4d4d4d;
+        padding-top: 16px;
+    }
+
+    .contents {
+        margin-bottom: 80px;
+    }
+
+
+    /*追加css*/
+    #container.school-life {
+        width: auto;
+        overflow: hidden;
+        margin-bottom: 120px;
+    }
+    .school-life .contents-wrap {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .school-life .contents {
+        display: inline-block;
+        width: 100%;
+        float: none;
+        vertical-align: top;
+    }
+    .school-life .contents:nth-child(2) {
+        margin-right: 0;
+    }
+    .school-life .pic img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .banner-area {
+        width: 88%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .banner-area img {
+        width: 100%;
+    }
+    .school-life #main .catch p {
+        font-size: 14px;
+    }
+    .school-life  #main h3 {
+        font-size: 24px;
+    }
+    p.banner-txt {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .tag {
+        display: inline;
+        width: auto;
+        font-size: 16px;
+        padding: 5px 25px;
+        background: #00408B;
+        color: #fff;
+    }
+
+    /*ヘッダー*/
+    section#school-life-ttl {
+        width: 80%;
+        margin: 0 auto;
+        padding: 40px 0;
+    }
+    section#school-life-ttl img {
+        width: 100%;
+    }
+
+    /*共通パーツの変動*/
+    header#education-hd {
+        background: url(../img/img_news-mv.jpg) 0 0/cover;
+    }
+    a {
+        cursor: pointer;
+    }
+
+    /*卒業生通用css*/
+    .pc {
+        display: none;
+    }
+    .sp {
+        display: block;
+    }
+    div#main.news-list-main {
+        width: auto;
+        max-width: 100%;
+        margin: 0;
+        float: none;
+        display:-webkit-box;
+        display: -webkit-flex;
+        display:-ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap:wrap;
+        -ms-flex-wrap:wrap;
+        flex-wrap:wrap;
+    }
+    .news-list-main a {
+        text-decoration: none;
+    }
+    .news-list-main p {
+        font-size: 20px;
+    }
+    .left-menu-list {
+        order: 10;
+        width: 100%;
+        border-bottom: 2px solid #004080;
+    }
+    .right-wrap {
+        order: 1;
+    }
+    p.left-menu-ttl {
+        font-size: 24px;
+        text-align: center;
+        color: #004080;
+        padding: 32px 0;
+        border: solid #004080;
+        border-width: 2px 0;
+    }
+    ul.news-list-menu li {
+        padding: 20px 0;
+        padding-right: 30px;
+        border-top: 1px dotted #000;
+        font-size: 14px;
+        background: url(../img/icon-arrow.png) 98% 50%/auto 20px no-repeat;
+    }
+    ul.news-list-menu li:last-child {
+        
+    }
+    ul.news-list-menu li a {
+        color: #4d4d4d;
+    }
+    ul.news-list-menu li.category-top-ttl a{
+        font-weight: bold;
+        color: #004080;
+    }
+    li.now-page {
+        color: #004080;
+    }
+    ul.news-list-menu li.category-top-ttl {
+        background: none;
+        width: 100%;
+        margin-right: 0;
+        border-top: none;
+    }
+    .news-list-ttl {
+        font-size: 36px;
+        letter-spacing: 8px;
+        padding-bottom: 34px;
+        background: url(../img/icon-ttl-underline.png) 0 100%/auto 10px repeat-x;
+        margin-bottom: 48px;
+        margin-top: 40px;
+    }
+    .news-list-main .ttl-area p {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .ttl-area p span {
+        font-size: 30px;
+        line-height: 40px;
+        display: block;
+        font-weight: bold;
+        color: #004080;
+        margin-bottom: 20px;
+    }
+    .ttl-area {
+        /*margin-bottom: 100px;*/
+    }
+    .right-wrap {
+        margin-bottom: 260px;
+    }
+    ul.news-list-menu li {
+        width: 48%;
+        display: inline-block;
+        margin-right: 2%;
+        padding-right: 32px;
+        font-size: 15px;
+        line-height: 40px;
+    }
+    ul.news-list-menu li:nth-child(2n-1) {
+        margin-right: 0;
+    }
+    ul.news-list-menu li:nth-child(5) {
+        border-bottom: 1px dotted #000;
+    }
+    ul.news-list-menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /*卒業生追加css*/
+    .pdf-list-warp {
+        border: solid #00408B;
+        border-width: 1px 0;
+    }
+    .document {
+        padding: 40px 0;
+        font-size: 0;
+        border-bottom: 1px dashed #808080;
+    }
+    .document:last-child {
+        border-bottom: none;
+    }
+    .document-icon {
+        display: inline-block;
+        width: 26%;
+        margin-right: 4%;
+    }
+    .document-txt {
+        display: inline-block;
+        width: 70%;
+        vertical-align: top;
+    }
+    p.document-time {
+        font-size: 20px;
+        margin-top: 8px;
+        margin-bottom: -6px;
+        color: #00408B;
+        letter-spacing: 5px;
+    }
+    p.document-ttl {
+        font-size: 28px;
+        line-height: 34px;
+        /*margin: 10px 0;*/
+        margin-bottom: 10px;
+        text-decoration: underline;
+    }
+    .pager{
+        /*padding-left: 28%;*/
+        width: 100%;
+        border-top: 1px solid #004081;
+    }
+    .pagination {
+        width: 100%;
+        text-align: center;
+    }
+
+    .pagination a {
+        color: white;
+        text-decoration: none;
+        transition: background-color .3s;
+        border: 1px solid #004081;
+        background-color: #004081;
+        display: inline-block;
+        padding: 0px 8px;
+        font-size: 16px;
+        margin-top: 40px;
+    }
+
+    span.page-numbers.current {
+    color: #004081;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #004081;
+    background-color: white;
+    display: inline-block;
+    padding: 0px 8px;
+    font-size: 16px;
+    margin-top: 40px;
+    }
+
+    span.page-numbers.dots {
+    color: white;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #004081;
+    background-color: #004081;
+    display: inline-block;
+    padding: 0px 8px;
+    font-size: 16px;
+    margin-top: 40px;
+    }
+
+    /*修正追加*/
+    .document-txt {
+        margin-top: 1px;
+    }
+    .tag {
+        padding: 4px 16px;
+    }
+    p.document-ttl a {
+        display: block;
+        padding: 4px 0;
+    }
+
+}

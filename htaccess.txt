@@ -1,0 +1,34 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.kogyokusha\.ed\.jp
+RewriteRule (.*) http://kogyokusha.ed.jp/$1 [R=302,L]
+
+RewriteRule ^index\.html?$ / [NC,R,L]
+RewriteRule ^index\.shtml?$ / [NC,R,L]
+RewriteRule ^introduction/index\.html?$ / [NC,R,L]
+RewriteRule ^education/index\.shtml?$ / [NC,R,L]
+RewriteRule ^admission/index\.shtml?$ / [NC,R,L]
+RewriteRule ^information/index\.cgi?$ / [NC,R,L]
+RewriteRule ^graduated/index\.cgi?$ / [NC,R,L]
+RewriteRule ^recruit/index\.cgi?$ / [NC,R,L]
+RewriteRule ^sitemap/index\.html?$ / [NC,R,L]
+RewriteRule ^access/index\.html?$ / [NC,R,L]
+RewriteRule ^inquiry/index\.html?$ / [NC,R,L]
+RewriteRule ^download/index\.html?$ / [NC,R,L]
+RewriteRule (.*)\.html(.*)$ / [NC,R,L]
+RewriteRule (.*)\.shtml(.*)$ / [NC,R,L]
+RewriteRule (.*)\.cgi(.*)$ / [NC,R,L]
+
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+#RewriteCond %{HTTPS} off
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# END WordPress

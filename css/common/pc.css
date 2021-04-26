@@ -1,0 +1,524 @@
+@media (max-width: 1120px) {
+    header nav {
+        display: none !important;
+    }
+}
+
+@media (min-width: 769px) {
+    #main {
+        max-width: 810px;
+        width: calc(100% - 470px);
+        display: block;
+        float: right;
+        margin-right: 50px;
+    }
+
+
+    #container {
+        max-width: 1280px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /*HEADER ここから*/
+    header {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    header#top-hd {
+        background: url(../../img/header/top-hd-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    header section#top-ttl {
+        display: block;
+        text-align: center;
+    }
+
+    header section#top-ttl img {
+        margin: 0 auto;
+        width: 495px;
+        padding-bottom: 112px;
+    }
+
+    header#education-hd {
+        background: url(../../img/header/education-hd-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    header section#education-ttl {
+        display: block;
+        text-align: center;
+    }
+
+    header section#education-ttl img {
+        margin: 0 auto;
+        width: 495px;
+        padding-bottom: 112px;
+    }
+
+    header#school-guide-hd {
+        background: url(../../img/header/school-guide-hd-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /*background-size: contain;*/
+    }
+
+    header section#school-guide-ttl {
+        display: block;
+        text-align: center;
+    }
+
+    header section#school-guide-ttl img {
+        margin: 0 auto;
+        width: 495px;
+        padding-bottom: 112px;
+    }
+
+
+
+    header section#logo {
+        width: 217px;
+        display: block;
+        float: left;
+        margin: 30px 50px 0;
+    }
+
+
+    header nav {
+        margin: 0 50px;
+        display: block;
+        width: calc(100% - 100px);
+        padding-bottom: 30px;
+    }
+
+    header nav ul {
+        padding-bottom: 0;
+        margin: 0 auto 28px;
+        max-width: 1180px;
+        display: block;
+    }
+
+    header nav ul li {
+        display: block;
+        background: #fff;
+        padding: 28px 0;
+        float: left;
+        width: calc(100% / 6);
+        cursor: pointer;
+    }
+
+    header nav ul li.now {
+        border-bottom: 4px solid #004080;
+        padding-bottom: 24px;
+    }
+
+    header nav ul li span {
+        font-size: 15px;
+        padding: 0 0;
+        width: 100%;
+        display: block;
+        text-align: center;
+        border-right: 1px solid #666666;
+    }
+
+    header nav ul li:last-child span {
+        border-right: 0;
+    }
+
+    #hamburger-btn-wrap {
+        background: #004080;
+        width: 74px;
+        display: block;
+        float: right;
+        margin-right: 50px;
+    }
+
+    #hamburger-btn span {
+        width: 42px;
+        background: #fff;
+        display: block;
+        margin-bottom: 12px;
+        border-bottom: 2px solid #fff;
+    }
+
+    #hamburger-btn span:last-child {
+        margin-bottom: 4px;
+    }
+
+    #hamburger-btn {
+        padding: 16px 16px 0;
+    }
+
+    #menu-ttl {
+        display: block;
+        text-align: center;
+        color: #fff;
+        font-size: 12px;
+        letter-spacing: 1px;
+        padding: 0 16px 8px;
+    }
+
+    /*HEADER ここまで*/
+
+    /*パンくずリスト ここから */
+    #breadcrumb {
+        padding: 0 50px;
+    }
+
+    #breadcrumb ul {
+        color: #000;
+        padding: 24px 0;
+        max-width: 1180px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #breadcrumb li {
+        font-size: 14px;
+        display: inline-block;
+    }
+
+    #breadcrumb li:after {
+        content: ">";
+        display: inline-block;
+        padding: 0 8px;
+    }
+
+    #breadcrumb li:last-child:after {
+        content: "";
+    }
+
+    /*パンくずリスト ここまで */
+
+    /*メイン　ここから*/
+
+    .hd h3 {
+        font-size: 30px;
+        color: #4D4D4D;
+    }
+
+    .hd .line {
+        margin: 12px 0 24px;
+    }
+
+
+
+
+    /*メイン　ここまで*/
+
+    /*サイドバー　ここから*/
+
+    #side-bar {
+        width: 300px;
+        margin-right: 70px;
+        margin-left: 50px;
+        display: block;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    #side-bar nav h2 {
+        font-size: 18px;
+        display: block;
+        text-align: center;
+        color: #004080;
+        border-top: 2px solid #004080;
+        border-bottom: 2px solid #004080;
+        padding: 30px 0;
+        font-weight: normal;
+    }
+
+    #side-bar nav ul li {
+        padding: 24px 0;
+        border-bottom: 1px dotted #4d4d4d;
+        width: 100%;
+        position: relative;
+    }
+
+    #side-bar nav ul li span {
+        display: inline-block;
+        font-size: 14px;
+    }
+
+
+
+    #side-bar nav ul li.subcat-inq:before {
+        content: "";
+        border-bottom: 2px solid #4d4d4d;
+        width: 24px;
+        display: inline-block;
+        margin-right: 8px;
+        vertical-align: 50%;
+    }
+
+    #side-bar nav ul li.subcat-inq:after {
+        display: inline-block;
+        top: 32px !important;
+    }
+
+    #side-bar nav ul li.subcat-apply:before {
+        content: "";
+        border-bottom: 2px solid #4d4d4d;
+        width: 24px;
+        display: inline-block;
+        margin-right: 8px;
+        vertical-align: 12%;
+    }
+
+    #side-bar nav ul li.cat span {
+        font-weight: normal;
+        color: #4d4d4d;
+    }
+
+    #side-bar nav ul li.cat:first-child span {
+        font-weight: bold;
+        color: #004080;
+
+    }
+
+    #side-bar nav ul li.link:after {
+        content: ">";
+        right: 0;
+        position: absolute;
+        font-size: 24px;
+        font-weight: normal;
+        top: 20px;
+        padding-right: 8px;
+        color: #004080;
+    }
+
+    #side-bar nav ul li:last-child {
+        border-bottom: 1px solid #004080;
+    }
+
+    #side-bar nav ul li.now span {
+        color: #004080;
+    }
+
+    /*サイドバー ここまで */
+
+    /*FOOTER　ここから*/
+    footer {
+        max-width: 100%;
+        width: 100%;
+        display: block;
+        padding: 110px 0 60px;
+        margin: 0 auto;
+        background: #e4e9ee;
+    }
+
+    #footer-ttl {
+        font-size: 30px;
+        display: block;
+        text-align: center;
+        letter-spacing: 6px;
+        font-weight: normal;
+        margin-bottom: 36px;
+    }
+
+    footer .btn-wrap {
+        width: 725px;
+        display: block;
+        margin: 0 auto 62px;
+    }
+
+    footer .btn-wrap .inquiry {}
+
+    footer .btn-wrap .doc-req {}
+
+
+    footer .btn-wrap button {
+        max-width: 350px;
+        width: 100%;
+        display: block;
+        text-align: center;
+        background: #004080;
+        color: #fff;
+        font-size: 20px;
+        float: left;
+        position: relative;
+    }
+
+    footer .btn-wrap button:after {
+        content: "";
+        position: absolute;
+        vertical-align: 4%;
+        background: url(../../img/icon-btn-arrow.png) 0 0/100% no-repeat;
+        width: 20px;
+        height: 20px;
+        top: 50%;
+        right: 20%;
+        -webkit-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+    }
+
+    footer .btn-wrap button:first-child {
+        margin-right: 24px;
+    }
+    footer .btn-wrap button:first-child::after {
+        right: 26%;
+    }
+    footer nav {
+        max-width: 1280px;
+        margin: 0 auto 36px;
+        width: 100%;
+    }
+
+    footer nav .col {
+        width: calc(100% / 5);
+        display: block;
+        float: left;
+        padding-left: 3%;
+    }
+
+    footer nav .col li.cat {
+        font-size: 16px;
+        font-weight: bold;
+        color: #4d4d4d;
+    }
+
+    footer nav .col li.cat:before {
+        content: ">";
+        display: inline-block;
+        color: #004087;
+        margin-right: 4px;
+    }
+
+    footer nav .col ul.subcat {
+        font-size: 14px;
+        padding-left: 12px;
+    }
+
+    footer nav .col ul.subcat li {
+        color: #4d4d4d;
+        margin-top: 20px;
+    }
+
+    footer nav .col ul.subcat li:before {
+        content: ">";
+        display: inline-block;
+        color: #004087;
+        margin-right: 4px;
+    }
+
+    footer nav .col ul.cat-grp {
+        margin-bottom: 32px;
+    }
+
+    footer address .logo {
+        width: 180px;
+        display: block;
+        float: left;
+        margin-right: 40px;
+    }
+
+    footer address .address {
+        display: block;
+        float: left;
+    }
+
+    footer address .address p {
+        font-size: 12px;
+        display: block;
+    }
+
+    footer address {
+        width: 484px;
+        margin: 0 auto 36px;
+    }
+
+    footer .search-input-wrap {
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid #004080;
+        padding-bottom: 48px;
+    }
+
+    footer .search-input-wrap input {
+        background: url(../../img/icon-search.png);
+        background-repeat: no-repeat;
+        background-position: 95% 4px;
+        border: 1px solid #666666;
+        height: 30px;
+        width: 204px;
+        font-size: 14px;
+        padding-left: 8px;
+        background-color: #fff;
+    }
+
+    footer aside {
+        letter-spacing: 2px;
+        font-size: 11px;
+        display: block;
+        text-align: center;
+        color: #000;
+        padding: 28px 0 0;
+    }
+
+    /*FOOTER　ここまで*/
+
+}
+
+@media (min-width: 769px) and (max-width: 1120px) {
+    footer {
+        max-width: 100%;
+        width: 100%;
+        display: block;
+        padding: 110px 0 60px;
+        margin: 0 auto;
+        background: #e4e9ee;
+    }
+
+    footer nav .col {
+        width: calc(100% / 3);
+        display: block;
+        float: left;
+        padding-left: 52px;
+        height: 520px;
+    }
+
+    footer .btn-wrap {
+        max-width: 725px;
+        width: 100%;
+        display: block;
+        margin: 0 auto 62px;
+    }
+
+    footer .btn-wrap button:first-child {
+        margin-right: 12px;
+    }
+
+    footer .btn-wrap button {
+        max-width: 350px;
+        width: calc(100% - 12px);
+        display: block;
+        text-align: center;
+        background: #004080;
+        color: #fff;
+        font-size: 20px;
+        float: left;
+    }
+
+    footer nav .col:first-child {
+        height: 380px;
+    }
+
+    footer nav .col:nth-child(2) {
+        height: 380px;
+    }
+
+    footer nav .col:nth-child(3) {
+        height: 380px;
+    }
+
+    footer nav {
+        max-width: 840px;
+        margin: 0 auto 36px;
+        width: 100%;
+    }
+}

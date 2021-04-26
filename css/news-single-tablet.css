@@ -1,0 +1,395 @@
+@media (min-width: 568px) and (max-width: 768px) {
+    #main.education-main {
+        width: 100%;
+        display: block;
+        float: none;
+        margin: 42px auto 0;
+    }
+
+    #main h3 {
+        font-size: 30px;
+        color: #4d4d4d;
+        display: block;
+        text-align: center;
+        line-height: 52px;
+        margin-bottom: 4px;
+    }
+
+    #main .catch p {
+        color: #004080;
+        line-height: 2;
+        display: block;
+        text-align: center;
+        font-size: 20px;
+    }
+news-single
+    #main .catch {
+        margin-bottom: 112px;
+    }
+
+    .contents-wrap:last-child {
+        margin-bottom: 320px;
+        display: inline-block;
+
+    }
+
+    .contents {
+        width: 360px;
+        display: block;
+        float: left;
+    }
+
+    .contents:first-child {
+        margin-right: 25px;
+        width: calc(50% - 25px);
+        display: block;
+        float: left;
+    }
+    .contents:last-child {
+        margin-left: 25px;
+    width: calc(50% - 25px);
+    display: block;
+    float: left;
+    }
+
+    .contents .ttl .jp {
+        font-size: 18px;
+        font-weight: bold;
+        color: #4d4d4d;
+    }
+
+    .contents .ttl .en {
+        color: #4d4d4d;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: italic;
+    }
+
+    .pic-wrap {
+        border-bottom: 1px dotted #004080;
+    }
+
+    .contents .bar {
+        width: 120px;
+        display: block;
+        margin: 0 auto;
+        height: 4px;
+        background: #004080;
+    }
+
+    .contents .ttl {
+        text-align: center;
+        margin: 16px 0;
+    }
+
+    .contents aside {
+        font-size: 16px;
+        display: block;
+        text-align: center;
+        color: #4d4d4d;
+        padding-top: 16px;
+    }
+
+    .contents {
+        margin-bottom: 80px;
+    }
+    /*追加css*/
+    #container.school-life {
+        width: auto;
+        overflow: hidden;
+        margin-bottom: 180px;
+    }
+    .school-life .contents-wrap {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .school-life .contents {
+        display: inline-block;
+        width: 46%;
+        float: none;
+        vertical-align: top;
+    }
+    .school-life .contents:nth-child(2) {
+        margin-right: 0;
+    }
+    .school-life .pic img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .banner-area {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .banner-area img {
+        width: 100%;
+    }
+    .tag {
+        display: inline;
+        width: auto;
+        font-size: 14px;
+        padding: 5px 16px;
+        background: #00408B;
+        color: #fff;
+    }
+
+    /*ヘッダー*/
+    section#school-life-ttl {
+        width: 64%;
+        margin: 0 auto;
+        padding-bottom: 120px;
+    }
+    section#school-life-ttl img {
+        width: 100%;
+    }
+
+    /*共通パーツの変動*/
+    header#education-hd {
+        background: url(../img/img_graduates-mv.JPG) 0 0/cover;
+    }
+    a {
+        cursor: pointer;
+    }
+
+    /*卒業生通用css*/
+    .pc {
+        display: block;
+    }
+    .sp {
+        display: none;
+    }
+    div#main.news-single-main {
+        width: auto;
+        max-width: 100%;
+        margin: 0;
+        float: none;
+        display:-webkit-box;
+        display: -webkit-flex;
+        display:-ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap:wrap;
+        -ms-flex-wrap:wrap;
+        flex-wrap:wrap;
+    }
+    .news-single-main a {
+        text-decoration: none;
+    }
+    .news-single-main p {
+        font-size: 16px;
+    }
+    .left-menu-list {
+        order: 10;
+        width: 100%;
+        border-bottom: 2px solid #004080;
+    }
+    .right-wrap {
+        order: 1;
+    }
+    p.left-menu-ttl {
+        font-size: 18px;
+        text-align: center;
+        color: #004080;
+        padding: 32px 0;
+        border: solid #004080;
+        border-width: 2px 0;
+    }
+    ul.news-single-menu li {
+        padding: 20px 0;
+        padding-right: 30px;
+        border-top: 1px dotted;
+        font-size: 14px;
+        background: url(../img/icon-arrow.png) 98% 50%/auto 20px no-repeat;
+    }
+    ul.news-single-menu li:last-child {
+        
+    }
+    ul.news-single-menu li a {
+        color: #4d4d4d;
+    }
+    ul.news-single-menu li.category-top-ttl a{
+        font-weight: bold;
+        color: #004080;
+    }
+    li.now-page {
+        color: #004080;
+    }
+    ul.news-single-menu li.category-top-ttl {
+        background: none;
+        width: 100%;
+        margin-right: 0;
+        border-top: none;
+    }
+    .news-single-ttl {
+        font-size: 30px;
+        padding-bottom: 34px;
+        background: url(../img/icon-ttl-underline.png) 0 100%/auto 10px repeat-x;
+        margin-bottom: 48px;
+    }
+    .news-single-main .ttl-area p {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .ttl-area p span {
+        font-size: 30px;
+        line-height: 40px;
+        display: block;
+        font-weight: bold;
+        color: #004080;
+        margin-bottom: 20px;
+    }
+    .ttl-area {
+        /*margin-bottom: 100px;*/
+    }
+    .right-wrap {
+        margin-bottom: 260px;
+    }
+    ul.news-single-menu li {
+        width: 48%;
+        display: inline-block;
+        margin-right: 2%;
+    }
+    ul.news-single-menu li:nth-child(2n-1) {
+        margin-right: 0;
+    }
+    ul.news-single-menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /*卒業生追加css*/
+    .pdf-list-warp {
+        border: solid #00408B;
+        border-width: 1px 0;
+    }
+    .document {
+        padding: 40px 0;
+        font-size: 0;
+        border-bottom: 1px dashed #808080;
+    }
+    .document:last-child {
+        border-bottom: none;
+    }
+    .document-icon {
+        display: inline-block;
+        width: 26%;
+        margin-right: 4%;
+    }
+    .document-txt {
+        display: inline-block;
+        width: 70%;
+        vertical-align: top;
+        margin-top: 5px;
+    }
+    p.document-time {
+        font-size: 18px;
+        color: #00408B;
+        letter-spacing: 5px;
+    }
+    p.document-ttl {
+        font-size: 28px;
+        /*margin: 10px 0;*/
+        margin-top: -12px;
+        text-decoration: underline;
+    }
+
+    .pager{
+        /*padding-left: 28%;*/
+        width: 100%;
+        padding: 41px 0 0 93px;
+        border-top: 1px solid #004081;
+    }
+
+    .pagination a {
+      color: white;
+      float: left;
+      padding: 8px 16px;
+      text-decoration: none;
+      transition: background-color .3s;
+      border: 1px solid #004081;
+      margin: 0 4px;
+      background-color: #004081;
+    }
+
+
+/*******************New***********************/
+.img-style{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+.p-title1{
+    font-size: 20px!important;
+    color: #00408b;
+    font-weight: 600;
+}
+.p-pragraph1{
+    font-size: 16px!important;
+    line-height: 2;
+    margin: 12px 0 0 0;
+}
+.div-pgroup{
+    margin: 25px 0 35px 0;
+}
+.list-style{
+    font-size: 16px!important;
+    line-height: 2;
+    margin: 12px 0 0 0;
+}
+.div-icon{
+    margin-bottom: 36px;
+}
+.tag-words{
+    font-size: 18px!important;
+}
+.icon1{
+    display: inline-block;
+    width: 20%;
+    padding-left: 10px;
+}
+.icon2{
+    display: inline-block;
+    width: 30%;
+    text-align: auto;
+}
+.small-icon{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-bottom: -4px;
+}
+
+.pagi-border{
+    width: 100%;
+    border-top: 1px solid #004081;
+    padding: 20px 0 0 15px;
+}
+.pagi{
+    font-size: 16px!important;
+    line-height: 2;
+    display: block;
+}
+/*******************New***********************/
+
+.news-single-menu li:nth-last-child(2){
+    border-bottom: 1px dotted;
+}
+#breadcrumb li a{
+    text-decoration: underline;
+}
+.div-icon .icon1 a {
+    text-decoration: underline;
+    color: #222;
+}
+.div-icon .icon2 a span{
+    text-decoration: underline;
+    color: #222;
+}
+
+
+
+
+
+}

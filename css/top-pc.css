@@ -1,0 +1,798 @@
+@media (min-width: 769px) {
+    #main.education-main {
+        width: 100%;
+        display: block;
+        float: none;
+        margin: 42px auto 0;
+    }
+
+    #main h3 {
+        font-size: 30px;
+        color: #4d4d4d;
+        display: block;
+        text-align: center;
+        line-height: 52px;
+        margin-bottom: 4px;
+    }
+
+    #main .catch p {
+        color: #004080;
+        line-height: 2;
+        display: block;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #main .catch {
+        margin-bottom: 112px;
+    }
+
+.contents-wrap:last-child {
+    margin-bottom: 320px;
+    display: block;
+}
+        .contents-wrap{
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 770px;
+        }
+    /*.contents {
+        width: 360px;
+        display: block;
+        float: left;
+    }
+
+    .contents:first-child {
+        margin-right: 25px;
+    }
+
+    .contents:last-child {
+        margin-left: 25px;
+    }*/
+
+    .contents .ttl .jp {
+        font-size: 18px;
+        font-weight: bold;
+        color: #4d4d4d;
+    }
+
+    .contents .ttl .en {
+        color: #4d4d4d;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: italic;
+    }
+
+    .pic-wrap {
+        border-bottom: 1px dotted #004080;
+    }
+
+    .contents .bar {
+        width: 120px;
+        display: block;
+        margin: 0 auto;
+        height: 4px;
+        background: #004080;
+    }
+
+    .contents .ttl {
+        text-align: center;
+        margin: 16px 0;
+    }
+
+    .contents aside {
+        font-size: 16px;
+        display: block;
+        text-align: center;
+        color: #4d4d4d;
+        padding-top: 16px;
+    }
+
+    .contents {
+        margin-bottom: 80px;
+    }
+
+    /*追加css*/
+    #container.school-life {
+        width: auto;
+        overflow: hidden;
+        margin-bottom: 250px;
+		margin-top: 70px;
+    }
+    .school-life .contents-wrap {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .school-life .contents {
+        display: inline-block;
+        width: 30%;
+        float: none;
+        vertical-align: top;
+    }
+    .school-life .contents:last-child {
+        margin-right: 0;
+    }
+    .school-life .pic img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .banner-area {
+        width: 40%;
+        min-width: 440px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 10%;
+    }
+    .banner-area img {
+        width: 100%;
+    }
+    .school-life #main.education-main {
+        max-width: 100%;
+    }
+
+    /*ヘッダー*/
+    section#school-life-ttl {
+        /*width: 50%;
+        margin: 0 auto;
+        padding-bottom: 120px;*/
+        /*width: 50%;*/
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        -webkit-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        padding-bottom: 0;
+        pointer-events: none;
+    }
+    section#school-life-ttl img {
+        width: 100%;
+    }
+    header nav {
+        position: absolute;
+        bottom: 0px;
+    }
+	/*ヘッダーニュース*/
+	#sp-news-box {
+		position: absolute;
+		bottom: 78px;
+		color: #fff;
+		margin: 0 50px;
+		display: block;
+		width: calc(100% - 100px);
+	}
+	#sp-news-box:nth-child(2) {
+		bottom: 40px;
+	}
+	.sp-news {
+		margin: auto;
+		max-width: 1180px;
+		background-color: #fff;
+		opacity: .6;
+		padding: 5px 0;
+		display: flex;
+	}
+	.sp-news time {
+		opacity: 1;
+		color: #000;
+		font-size: 16px;
+		margin: 0 20px;
+		font-weight: bold;
+	}
+	.sp-news p {
+		opacity: 1;
+		color: #000;
+		font-size: 16px;
+		font-weight: bold;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.sp-news time a{
+		text-decoration: underline
+	}
+	.sp-news p a{
+		text-decoration: underline;
+	}
+    /*共通パーツの変動*/
+    header#education-hd {
+        /*background: url(../img/img-top-mv.png) 50% 50%/cover;*/
+    }
+    a {
+        text-decoration: none;
+        color: #000;
+        cursor: pointer;
+    }
+    section#logo a {
+        display: block;
+        width: auto;
+        height: auto;
+    }
+    section#logo a:hover {
+        opacity: .9;
+    }
+    .logo a {
+        display: block;
+        width: auto;
+        height: auto;
+    }
+    .logo a:hover {
+        opacity: .9;
+    }
+    .interview a {
+        display: block;
+        width: auto;
+        height: auto;
+    }
+
+    /*卒業生通用css*/
+    .pc {
+        display: block;
+    }
+    .sp {
+        display: none;
+    }
+    
+    /*NEWS共通*/
+    .club-news--items {
+        font-size: 0;
+        padding: 30px 0;
+        border-bottom: none;
+        display: none;
+    }
+    .club-news--items.active {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .club-news-box {
+        display: inline-block;
+        width: 48%;
+        margin-right: 2%;
+        vertical-align: top;
+    }
+    .club-news-box:nth-child(2n) {
+        margin-right:0;
+        padding-left: 2%;
+        border-left: 1px dashed #808080;
+    }
+    .top-news-box {
+        width: 50%;
+        padding: 2% 0;
+        border-top: none;
+        border-bottom: 1px dashed #808080;
+    }
+    .top-news-box:nth-child(1), .top-news-box:nth-child(2) {
+        border-top: none;
+    }
+    .top-news-box:nth-last-child(1), .top-news-box:nth-last-child(2) {
+        border-bottom: none;
+    }
+    .top-news-box .club-news-box {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-right: 4%;
+    }
+    .top-news-box:nth-child(2n) .club-news-box {
+        padding-right:0;
+        padding-left: 4%;
+        border-left: 1px dashed #808080;
+		margin-right: 0;
+    }
+	 .top-news-box:nth-child(odd) .club-news-box {
+        padding-right: 4%;
+    }
+	.banner-box {
+		display: none;
+	}
+	.PC-top-banner {
+		position: absolute;
+		bottom: 51px;
+		margin: 0 50px;
+		width: calc(100% - 100px);
+	}
+	.PC-top-banner-box {
+		z-index: 3;
+		position: relative;
+		display: flex;
+		justify-content: end;
+		max-width: 1180px;
+		margin: 0 auto;
+	}
+	.top-banner-img {
+		width: 210px;
+		margin: 0;
+		position: absolute;
+		right: 20px;
+		cursor: pointer;
+		bottom: 20%;
+	}
+    .top-pass-banner-img {
+        margin: 0;
+        position: absolute;
+        right: 244px;
+        cursor: pointer;
+        bottom: 20%;
+        width: 200px;
+    }
+    .tag {
+        display: inline;
+        width: auto;
+        font-size: 10px;
+        padding: 5px 16px;
+        background: #00408B;
+        color: #fff;
+    }
+    p.news-ttl {
+        font-size: 17px;
+        text-decoration: underline;
+    }
+    .news-img {
+        display: inline-block;
+        width: 32%;
+        height: auto;
+        margin-right: 4%;
+        vertical-align: top;
+    }
+    .new-txt-area {
+        display: inline-block;
+        width: 63%;
+        margin-top: 6px;
+    }
+    .club-news-btn {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .club-news-btn a {
+        display: inline;
+        font-size: 16px;
+        width: auto;
+        padding: 12px 60px;
+        color: #fff;
+        background: #000;
+        text-decoration: none;
+    }
+    .club-news {
+        margin-bottom: 84px;
+    }
+    .news-img img {
+        width: 100%;
+    }
+    .new-txt-area p {
+        font-size: 16px;
+        margin: 16px 0 0;
+    }
+    p.news-ttl {
+        font-size: 20px;
+        margin-top: 0;
+    }
+    p.news-txt {
+        margin-top: 8px;
+    }
+
+    /*トップページ*/
+    div#container.top-page {
+        max-width: 100%;
+    }
+    div#main.top-main {
+        width: 100%;
+        max-width: 100%;
+        float: none;
+        margin-right: 0;
+    }
+    .toppage-btn {
+        max-width: 725px;
+        width: 100%;
+        display: block;
+        margin: 0 auto 100px;
+    }
+    .toppage-btn button{
+        max-width: 350px;
+        width: 100%;
+        display: block;
+        text-align: center;
+        background: #004080;
+        color: #fff;
+        font-size: 20px;
+        float: left;
+        padding: 10px 22px 10px 10px;
+        position: relative;
+    }
+    .toppage-btn button::after {
+        content: "";
+        position: absolute;
+        vertical-align: 4%;
+        background: url(../img/icon-btn-arrow.png) 0 0/100% no-repeat;
+        width: 20px;
+        height: 20px;
+        top: 50%;
+        right: 20%;
+        -webkit-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+    }
+	  .schoolyearbtn button::after {
+        right: 9%;
+    }
+    .toppage-btn button:first-child {
+        margin-right: 24px;
+    }
+    .toppage-btn button:first-child::after {
+        right: 16%;
+    }
+	.schoolyearbtn button:first-child::after {
+        right: 9%;
+    }
+.schoolyearbtn {
+    max-width: 725px;
+    width: 100%;
+    margin: 0 auto 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.schoolyearbtn button {
+    width: 15%;
+    display: block;
+    text-align: center;
+    background: #004080;
+    color: #fff;
+    font-size: 20px;
+    float: left;
+    padding: 10px 22px 10px 10px;
+    position: relative;
+}
+.schoolyearbtn button:first-child {
+    margin-right: 0px;
+}
+    .content-ttl {
+        min-height: 60px;
+        text-align: center;
+        color: white;
+        background-color: #008CA0;
+        height: 70px;
+        padding-top: 6px;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 auto;
+        width: 100%;
+    }
+    p.content-ttl-sub {
+        font-size: 14px;
+        line-height: 130%;
+        margin: 0;
+        padding: 0;
+        margin-top: 8px;
+    }
+    p.content-ttl-main {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+    }
+    .content-ttl.visit {
+        background-color: #357EDD;
+    }
+    .content-ttl.media {
+        background-color: #FFE600;
+        color: black;
+    }
+    .content-ttl.bo-interview {
+        background-color: #797979;
+    }
+    .content-ttl-wrapper {
+        display: inline-block;
+    }
+    .top-navi-item p {
+        font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+    }
+    img.icon-web {
+        display: inline-block;
+        margin-right: 8px;
+        width: 44px;
+    }
+    .top-navi {
+        width: 100%;
+        font-size: 0;
+        margin-bottom: 50px;
+    }
+    .top-navi-item {
+        display: inline-block;
+        width: 25%;
+    }
+    .top-navi-item img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        object-position: center center;
+    }
+    img.icon-web {
+        display: inline-block;
+        margin-right: 18px;
+        width: 44px;
+        height: auto;
+    }
+    .top-main-mv {
+        width: 100%;
+        height: 720px;
+        background: #000;
+        position: relative;
+    }
+    .top-main-mv img {
+        position: absolute;
+        display: block;
+        width: 50%;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+    .top-main-mv iframe#youtube {
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        opacity: .8;
+    }
+    .top-news-area {
+        max-width: 1180px;
+        width: 94%;
+        margin: 0 auto;
+        padding: 0 50px;
+    }
+    .news-tag-list {
+        width: 100%;
+        font-size: 0;
+        margin-top: 100px;
+        margin-bottom: 30px;
+        display: flex;
+    }
+    p.news-tag {
+        font-size: 20px;
+        width: 25%;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 24px;
+        border-bottom: 2px solid #808080;
+        padding-top: 12px;
+        cursor: pointer;
+    }
+    p.news-tag:last-child {
+        padding-top: 12px;
+        font-size: 20px;
+    }
+    p.news-tag.active {
+        color: #00408B;
+        border-color: #00408B;
+    }
+    .top-news-area-items .tag{
+        font-size: 14px;
+        padding: 6px 16px;
+    }
+    .interview-area {
+        width: 50%;
+        margin: 108px auto 114px;
+        font-size: 0;
+    }
+    p.interview-ttl {
+        font-size: 30px;
+        text-align: center;
+        margin: 0 0 30px;
+    }
+    .interview {
+        display: inline-block;
+        width: 50%;
+    }
+    .interview img {
+        width: 100%;
+    }
+    p.interview-txt {
+        font-size: 14px;
+        text-align: center;
+    }
+    p.interview-txt span {
+        font-size: 20px;
+        display: block;
+    }
+
+    /*---------------------------まとめる全に追加したコード---------------------------*/
+    /*header#education-hd {
+        background: none;
+        position: relative;
+        overflow-y: hidden;
+    }*/
+    .top-video {
+        position: relative;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -2;
+    }
+    .top-video video {
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+    }
+    .video-black {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        background: #000;
+        z-index: 0;
+        opacity: 0.3;
+    }
+    .interview-area {
+      flex-wrap: wrap;
+    }
+    p.interview-ttl {
+      width: 100%;
+    }
+    .mv-people {
+        position: absolute;
+        transform: scale(-1, 1);
+        width: 19%;
+        right: 20px;
+        top: 37%;
+        z-index: 0;
+    }
+
+}
+@media (min-width: 1120px) {
+#sp-news-box {
+		bottom: 218px;
+	transition: top 1s;
+	}
+#sp-news-box:nth-child(2) {
+		bottom: 180px;
+	transition: top 1s;
+}
+.PC-top-banner {
+	bottom: 186px;
+}
+.top-banner-img {
+	width: 255px;
+}
+.top-pass-banner-img {
+        right: 280px;
+        width: 246px;
+    }
+.top-page section#school-life-ttl {
+    top: 40%;
+	transition: top 1s;
+}
+.introduction section#school-life-ttl {
+    top: 45%;
+	transition: top 1s;
+}
+.school_life section#school-life-ttl {
+    top: 45%;
+	transition: top 1s;
+}
+.student section#school-life-ttl {
+    top: 45%;
+	transition: top 1s;
+}
+.news section#school-life-ttl {
+    top: 45%;
+	transition: top 1s;
+}
+.ob-interview section#school-life-ttl {
+    top: 45%;
+	transition: top 1s;
+}
+.to-graduates section#school-life-ttl {
+    top: 45%;
+	transition: top 1s;
+}
+.form section#school-life-ttl {
+    top: 45%;
+	transition: top 1s;
+}
+.educatiion section#school-life-ttl {
+    top: 45%;
+	transition: top 1s;
+}
+section#school-life-ttl .page-ttl-area img {
+    width: 11vw;
+    height: auto;
+}
+section#school-life-ttl .page-ttl-area p {
+    font-size: 8.5vw;
+}
+section#school-life-ttl .page-ttl-area p.page-ttl-jp {
+    font-size: 2.8vw;
+    margin-top: 0;
+	line-height: 1;
+}
+.introduction section#school-life-ttl .page-ttl-area img {
+    width: 130px;
+    height: auto;
+}
+.introduction section#school-life-ttl .page-ttl-area p {
+    font-size: 100px;
+}
+.introduction section#school-life-ttl .page-ttl-area p.page-ttl-jp {
+    font-size: 28px;
+    margin-top: 0;
+	line-height: 1;
+}
+.school_life section#school-life-ttl .page-ttl-area img {
+    width: 130px;
+    height: auto;
+}
+.school_life section#school-life-ttl .page-ttl-area p {
+    font-size: 100px;
+}
+.school_life section#school-life-ttl .page-ttl-area p.page-ttl-jp {
+    font-size: 28px;
+    margin-top: 0;
+	line-height: 1;
+}
+.student section#school-life-ttl .page-ttl-area img {
+    width: 130px;
+    height: auto;
+}
+.student section#school-life-ttl .page-ttl-area p {
+    font-size: 100px;
+}
+.student section#school-life-ttl .page-ttl-area p.page-ttl-jp {
+    font-size: 28px;
+    margin-top: 0;
+	line-height: 1;
+}
+.news section#school-life-ttl .page-ttl-area img,.ob-interview section#school-life-ttl .page-ttl-area img {
+    width: 130px;
+    height: auto;
+}
+.news section#school-life-ttl .page-ttl-area p,.ob-interview section#school-life-ttl .page-ttl-area p {
+    font-size: 100px;
+}
+.news section#school-life-ttl .page-ttl-area p.page-ttl-jp,.ob-interview section#school-life-ttl .page-ttl-area p.page-ttl-jp {
+    font-size: 28px;
+    margin-top: 0;
+	line-height: 1;
+}
+.form section#school-life-ttl .page-ttl-area img {
+    width: 130px;
+    height: auto;
+}
+.form section#school-life-ttl .page-ttl-area p {
+    font-size: 100px;
+}
+.form section#school-life-ttl .page-ttl-area p.page-ttl-jp {
+    font-size: 28px;
+    margin-top: 0;
+	line-height: 1;
+}
+.to-graduates section#school-life-ttl .page-ttl-area img {
+    width: 130px;
+    height: auto;
+}
+.to-graduates section#school-life-ttl .page-ttl-area p {
+    font-size: 100px;
+}
+.to-graduates section#school-life-ttl .page-ttl-area p.page-ttl-jp {
+    font-size: 28px;
+    margin-top: 0;
+	line-height: 1;
+}
+.educatiion section#school-life-ttl .page-ttl-area img {
+    width: 130px;
+    height: auto;
+}
+.educatiion section#school-life-ttl .page-ttl-area p {
+    font-size: 100px;
+}
+.educatiion section#school-life-ttl .page-ttl-area p.page-ttl-jp {
+    font-size: 28px;
+    margin-top: 0;
+	line-height: 1;
+}
+}
